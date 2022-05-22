@@ -1,0 +1,13 @@
+# ninja log v5
+9	1732	6749238945334078	CMakeFiles/JumpJump.dir/src/GameEngine.cpp.obj	dbe298ba76207c9f
+78	1979	6745121515554362	CMakeFiles/JumpJump.dir/Paddle.cpp.obj	a41d36b4ea213932
+17	4181	6749238083129467	CMakeFiles/JumpJump.dir/main.cpp.obj	1a979906181404b8
+8	2474	6745146533661187	CMakeFiles/JumpJump.dir/Player.cpp.obj	e0f94db2b7dcd3d0
+17	2618	6749361414760200	JumpJump.exe	90a60fdb5e3147db
+47	3838	6749238079334949	CMakeFiles/JumpJump.dir/src/MenuState.cpp.obj	8d606e7f5c4d2e05
+53	4387	6749238085404219	CMakeFiles/JumpJump.dir/src/IntroState.cpp.obj	d2ccac97b0df2e3b
+61	4404	6749238085563142	CMakeFiles/JumpJump.dir/src/PlayState.cpp.obj	51ff5c899cc98316
+71	3163	6749232223310554	CMakeFiles/JumpJump.dir/src/Paddle.cpp.obj	1149efce46dd8421
+81	3852	6749238079563430	CMakeFiles/JumpJump.dir/src/PaddleCreate.cpp.obj	e287e457030af96a
+51	3520	6748583789328595	CMakeFiles/JumpJump.dir/src/BaseState.cpp.obj	2f8805a6368379a7
+3	2008	6749372723620664	build.ninja	cf8daac986caa303
