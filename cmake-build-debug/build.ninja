@@ -39,13 +39,13 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = D$:/CLionProjects/JumpJump/cmake-build-debug/
+cmake_ninja_workdir = D$:/CLionProjects/JumpJump/Project-Jumping/cmake-build-debug/
 
 #############################################
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\CLionProjects\JumpJump\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SD:\CLionProjects\JumpJump -BD:\CLionProjects\JumpJump\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D D:\CLionProjects\JumpJump\Project-Jumping\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SD:\CLionProjects\JumpJump\Project-Jumping -BD:\CLionProjects\JumpJump\Project-Jumping\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -61,59 +61,59 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build cmake_object_order_depends_target_JumpJump: phony || CMakeFiles/JumpJump.dir
 
-build CMakeFiles/JumpJump.dir/main.cpp.obj: CXX_COMPILER__JumpJump_Debug D$:/CLionProjects/JumpJump/main.cpp || cmake_object_order_depends_target_JumpJump
+build CMakeFiles/JumpJump.dir/main.cpp.obj: CXX_COMPILER__JumpJump_Debug D$:/CLionProjects/JumpJump/Project-Jumping/main.cpp || cmake_object_order_depends_target_JumpJump
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\JumpJump.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Program -ID:/CLionProjects/JumpJump/Files/SFML-2.5.1/include -isystem "C:/Program Files/SFML-2.5.1/include"
+  INCLUDES = -IC:/Program -ID:/CLionProjects/JumpJump/Project-Jumping/Files/SFML-2.5.1/include -isystem "C:/Program Files/SFML-2.5.1/include"
   OBJECT_DIR = CMakeFiles\JumpJump.dir
   OBJECT_FILE_DIR = CMakeFiles\JumpJump.dir
 
-build CMakeFiles/JumpJump.dir/src/GameEngine.cpp.obj: CXX_COMPILER__JumpJump_Debug D$:/CLionProjects/JumpJump/src/GameEngine.cpp || cmake_object_order_depends_target_JumpJump
+build CMakeFiles/JumpJump.dir/src/GameEngine.cpp.obj: CXX_COMPILER__JumpJump_Debug D$:/CLionProjects/JumpJump/Project-Jumping/src/GameEngine.cpp || cmake_object_order_depends_target_JumpJump
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\JumpJump.dir\src\GameEngine.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Program -ID:/CLionProjects/JumpJump/Files/SFML-2.5.1/include -isystem "C:/Program Files/SFML-2.5.1/include"
+  INCLUDES = -IC:/Program -ID:/CLionProjects/JumpJump/Project-Jumping/Files/SFML-2.5.1/include -isystem "C:/Program Files/SFML-2.5.1/include"
   OBJECT_DIR = CMakeFiles\JumpJump.dir
   OBJECT_FILE_DIR = CMakeFiles\JumpJump.dir\src
 
-build CMakeFiles/JumpJump.dir/src/IntroState.cpp.obj: CXX_COMPILER__JumpJump_Debug D$:/CLionProjects/JumpJump/src/IntroState.cpp || cmake_object_order_depends_target_JumpJump
+build CMakeFiles/JumpJump.dir/src/IntroState.cpp.obj: CXX_COMPILER__JumpJump_Debug D$:/CLionProjects/JumpJump/Project-Jumping/src/IntroState.cpp || cmake_object_order_depends_target_JumpJump
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\JumpJump.dir\src\IntroState.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Program -ID:/CLionProjects/JumpJump/Files/SFML-2.5.1/include -isystem "C:/Program Files/SFML-2.5.1/include"
+  INCLUDES = -IC:/Program -ID:/CLionProjects/JumpJump/Project-Jumping/Files/SFML-2.5.1/include -isystem "C:/Program Files/SFML-2.5.1/include"
   OBJECT_DIR = CMakeFiles\JumpJump.dir
   OBJECT_FILE_DIR = CMakeFiles\JumpJump.dir\src
 
-build CMakeFiles/JumpJump.dir/src/MenuState.cpp.obj: CXX_COMPILER__JumpJump_Debug D$:/CLionProjects/JumpJump/src/MenuState.cpp || cmake_object_order_depends_target_JumpJump
+build CMakeFiles/JumpJump.dir/src/MenuState.cpp.obj: CXX_COMPILER__JumpJump_Debug D$:/CLionProjects/JumpJump/Project-Jumping/src/MenuState.cpp || cmake_object_order_depends_target_JumpJump
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\JumpJump.dir\src\MenuState.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Program -ID:/CLionProjects/JumpJump/Files/SFML-2.5.1/include -isystem "C:/Program Files/SFML-2.5.1/include"
+  INCLUDES = -IC:/Program -ID:/CLionProjects/JumpJump/Project-Jumping/Files/SFML-2.5.1/include -isystem "C:/Program Files/SFML-2.5.1/include"
   OBJECT_DIR = CMakeFiles\JumpJump.dir
   OBJECT_FILE_DIR = CMakeFiles\JumpJump.dir\src
 
-build CMakeFiles/JumpJump.dir/src/PlayState.cpp.obj: CXX_COMPILER__JumpJump_Debug D$:/CLionProjects/JumpJump/src/PlayState.cpp || cmake_object_order_depends_target_JumpJump
+build CMakeFiles/JumpJump.dir/src/PlayState.cpp.obj: CXX_COMPILER__JumpJump_Debug D$:/CLionProjects/JumpJump/Project-Jumping/src/PlayState.cpp || cmake_object_order_depends_target_JumpJump
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\JumpJump.dir\src\PlayState.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Program -ID:/CLionProjects/JumpJump/Files/SFML-2.5.1/include -isystem "C:/Program Files/SFML-2.5.1/include"
+  INCLUDES = -IC:/Program -ID:/CLionProjects/JumpJump/Project-Jumping/Files/SFML-2.5.1/include -isystem "C:/Program Files/SFML-2.5.1/include"
   OBJECT_DIR = CMakeFiles\JumpJump.dir
   OBJECT_FILE_DIR = CMakeFiles\JumpJump.dir\src
 
-build CMakeFiles/JumpJump.dir/src/Paddle.cpp.obj: CXX_COMPILER__JumpJump_Debug D$:/CLionProjects/JumpJump/src/Paddle.cpp || cmake_object_order_depends_target_JumpJump
+build CMakeFiles/JumpJump.dir/src/Paddle.cpp.obj: CXX_COMPILER__JumpJump_Debug D$:/CLionProjects/JumpJump/Project-Jumping/src/Paddle.cpp || cmake_object_order_depends_target_JumpJump
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\JumpJump.dir\src\Paddle.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Program -ID:/CLionProjects/JumpJump/Files/SFML-2.5.1/include -isystem "C:/Program Files/SFML-2.5.1/include"
+  INCLUDES = -IC:/Program -ID:/CLionProjects/JumpJump/Project-Jumping/Files/SFML-2.5.1/include -isystem "C:/Program Files/SFML-2.5.1/include"
   OBJECT_DIR = CMakeFiles\JumpJump.dir
   OBJECT_FILE_DIR = CMakeFiles\JumpJump.dir\src
 
-build CMakeFiles/JumpJump.dir/src/PaddleCreate.cpp.obj: CXX_COMPILER__JumpJump_Debug D$:/CLionProjects/JumpJump/src/PaddleCreate.cpp || cmake_object_order_depends_target_JumpJump
+build CMakeFiles/JumpJump.dir/src/PaddleCreate.cpp.obj: CXX_COMPILER__JumpJump_Debug D$:/CLionProjects/JumpJump/Project-Jumping/src/PaddleCreate.cpp || cmake_object_order_depends_target_JumpJump
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\JumpJump.dir\src\PaddleCreate.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Program -ID:/CLionProjects/JumpJump/Files/SFML-2.5.1/include -isystem "C:/Program Files/SFML-2.5.1/include"
+  INCLUDES = -IC:/Program -ID:/CLionProjects/JumpJump/Project-Jumping/Files/SFML-2.5.1/include -isystem "C:/Program Files/SFML-2.5.1/include"
   OBJECT_DIR = CMakeFiles\JumpJump.dir
   OBJECT_FILE_DIR = CMakeFiles\JumpJump.dir\src
 
@@ -140,7 +140,7 @@ build JumpJump.exe: CXX_EXECUTABLE_LINKER__JumpJump_Debug CMakeFiles/JumpJump.di
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\CLionProjects\JumpJump\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D D:\CLionProjects\JumpJump\Project-Jumping\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -157,7 +157,7 @@ build JumpJump: phony JumpJump.exe
 # =============================================================================
 
 #############################################
-# Folder: D:/CLionProjects/JumpJump/cmake-build-debug
+# Folder: D:/CLionProjects/JumpJump/Project-Jumping/cmake-build-debug
 
 build all: phony JumpJump.exe
 
